@@ -7724,7 +7724,7 @@
      <table:table-cell table:style-name="ce236" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce216"/>
      <table:table-cell table:style-name="ce278" office:value-type="string" calcext:value-type="string">
-      <text:p>5 {(dec. 2 lect. et praed.)}; 24 {de ref}</text:p>
+      <text:p>5 {(dec. 2 lect. et praed.)}; 24 {(de ref)}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce278" office:value-type="string" calcext:value-type="string">
       <text:p>1; 8</text:p>
