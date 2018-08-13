@@ -1,2 +1,3 @@
 *.xls diff=xls
-*.fods diff=xml
+*.fods diff=
+*.csv diffopts=--word-diff --color-words
