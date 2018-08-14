@@ -1,5 +1,8 @@
 *.xls diff=coopy
-*.xlsc diff=coopy
+*.xls merge=coopy-xls
+*.xlsx diff=coopy
+*.xlsx merge=coopy-xls
 *.ods diff=coopy
+*.ods merge=coopy-xls
 *.csv diff=coopy
 *.csv merge=coopy-csv
