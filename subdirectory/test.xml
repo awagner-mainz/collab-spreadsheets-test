@@ -3,6 +3,9 @@
     schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="W0004">
 <?svsal htmlFragmentationDepth="4" ?>
+<?svsal htmlFragmentationDepth="4" ?>
+<?svsal htmlFragmentationDepth="4" ?>
+<?svsal htmlFragmentationDepth="4" ?>
 	
     <teiHeader>
         <fileDesc>
@@ -11,9 +14,9 @@
                 <title type="main" level="m">Tratado de cue[n]tas</title>
                 <author>
                     <persName ref="author:A0019 gnd:130116688 cerl:cnp01232744" key="Castillo, Diego de" full="yes">
-                        <forename full="yes">Diego</forename>
+                        <forename full="yes">Dogie</forename>
                         <nameLink>del</nameLink>
-                        <surname full="yes">Castillo</surname>
+                        <surname full="yes">Costilla</surname>
                     </persName>
                 </author>
                 <editor xml:id="CB" role="Editor">
