@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://files.salamanca.school/SvSal_txt.rng"
+    type="application/xml"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="W0004">
+<?svsal htmlFragmentationDepth="2" ?>
+<?svsal htmlFragmentationDepth="2" ?>
+<?svsal htmlFragmentationDepth="2" ?>
+<?svsal htmlFragmentationDepth="2" ?>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="short" level="m">Tratado de Cuentas</title>
+                <title type="main" level="m">Tratado de cue[n]tas</title>
+                <author>
+                    <persName ref="author:A0019 gnd:130116688 cerl:cnp01232744" key="Castillo, Diego de" full="yes">
+                        <forename full="yes">Diego</forename>
+                        <nameLink>del</nameLink>
+                        <surname full="yes">Castillo</surname>
+                    </persName>
+                </author>
+                <editor xml:id="CB" role="Editor">
+                    <persName ref="gnd:138962987" full="yes">
+                        <surname full="yes">Birr</surname>, <forename full="yes">Christiane</forename>
+                    </persName>
+                </editor>
+                <editor xml:id="AW" role="DataManager">
+                    <persName ref="gnd:108835820" full="yes">
+                        <surname full="yes">Wagner</surname>, <forename full="yes">Andreas</forename>
+                    </persName>
+                </editor>
+                
+            </titleStmt>
+           
+            <editionStmt>
+               <edition n="1.0.0" xml:id="W0004-v1.0.0" xml:lang="en">
+                   Complete digitized edition, <date type="digitizedEd" when="2018-07-10">2018-07-10</date>.
+               </edition>
+            </editionStmt>
+           
+            <publicationStmt xml:id="publicationStmt">
+                <xi:include href="../meta/works-general.xml" xpointer="xmlns(tei=http://www.tei-c.org/ns/1.0)xpointer(//tei:fileDesc/tei:publicationStmt/*)">
+                    <xi:fallback><publisher><ref target="https://www.salamanca.school" xml:lang="en">For information about the digital edition, please 
+                                refer to our website.</ref></publisher>
+                    </xi:fallback>
+                </xi:include>
+                <availability>
+                    <licence target="http://creativecommons.org/cc-by/4.0" n="cc-by">CC-BY</licence>
+                </availability>
+                <date type="digitizedEd" when="2018-07-10">2018-07-10</date>
+                <idno>
+                    <idno type="DOI">10.5072/zenodo.510972</idno>
+                    <idno xml:id="urlid">https://id.salamanca.school/texts/W0004</idno>
+                    <idno xml:id="urltei">https://id.salamanca.school/texts/W0004?format=tei</idno>
+                    <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0004?format=html</idno>
+                    <idno xml:id="urlrdf">https://id.salamanca.school/texts/W0004?format=rdf</idno>
+                    <idno xml:id="urliiif">https://id.salamanca.school/texts/W0004?format=iiif</idno>
+                    <idno xml:id="urltxtorig">https://id.salamanca.school/texts/W0004?format=txt&amp;mode=orig</idno>
+                    <idno xml:id="urltxtedit">https://id.salamanca.school/texts/W0004?format=txt&amp;mode=edit</idno>
+                </idno>
+            </publicationStmt>
+            
+            <seriesStmt>
+                <xi:include href="../meta/works-general.xml" xpointer="xmlns(tei=http://www.tei-c.org/ns/1.0)xpointer(//tei:fileDesc/tei:seriesStmt/*)">
+                    <xi:fallback>
+                       <title xml:lang="en"><ref target="https://www.salamanca.school">The School of Salamanca. A Digital Collection of Sources</ref></title>
+                    </xi:fallback>
+                </xi:include>
+                <biblScope unit="volume" n="2" xml:lang="en">Volume 2</biblScope>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName ref="author:A0019 gnd:130116688 cerl:cnp01232744" key="Castillo, Diego de" full="yes">
+                                <forename full="yes">Diego</forename>
+                                <nameLink>del</nameLink>
+                                <surname full="yes">Castillo</surname>
+                            </persName>
+                        </author>
+                        <title type="short" level="m">Tratado de Cuentas</title>
+                        <title type="main" level="m">Tratado de cue[n]tas</title>
+                        <imprint>
+                            <pubPlace role="firstEd" ref="getty:7002810" key="Burgos">Burgos</pubPlace>
+                            <date type="firstEd" when="1522">1522</date>
+                            <publisher n="firstEd">
+                                <persName ref="cerl:cni00036504" key="Melgar, Alfonso de" full="yes">
+                                    <forename full="yes">Alonso</forename>
+                                    <nameLink>de</nameLink>
+                                    <surname full="yes">Melgar</surname>
+                                </persName>
+                            </publisher>
+                        </imprint>
+                        <extent xml:lang="de">XXVIII Blätter ; 8°</extent>
+                        <extent xml:lang="en">XXVIII l. ; 8°</extent>
+                        <extent xml:lang="es">XXVIII h. ; 8°</extent>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="gnd:1083752-8" xml:lang="en">Columbia University / Libraries</repository>
+                        <idno type="catlink" xml:lang="en">http://clio.columbia.edu/catalog/7480120</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <typeNote n="rotunda" xml:lang="en">Rotunda typeface</typeNote>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+       
+        <profileDesc>
+           <langUsage>
+              <language ident="es" usage="75" n="main" xml:lang="en">Spanish</language>
+              <language ident="la" usage="25" n="marginal" xml:lang="en">Latin</language>
+           </langUsage>
+           <textClass>
+              <keywords>
+                 <term>Keyword 1</term>
+                 <term>Keyword 2</term>
+                 <term>Keyword 3</term>
+              </keywords>
+           </textClass>
+        </profileDesc>
+     
+        <encodingDesc>
+            <xi:include href="../meta/works-general.xml" xpointer="projectDesc">
+                <xi:fallback><projectDesc><p xml:id="W0004-00-meta-pa-0004"><ref target="https://www.salamanca.school" xml:lang="en">For information about the project, please 
+                               refer to our website.</ref></p></projectDesc>
+                </xi:fallback>
+            </xi:include>
+            <editorialDecl>
+                <xi:include href="../meta/works-general.xml" xpointer="xmlns(tei=http://www.tei-c.org/ns/1.0)xpointer(//tei:encodingDesc/tei:editorialDecl/tei:p)">
+                    <xi:fallback><p xml:id="W0004-00-meta-pa-0005"><ref target="https://www.salamanca.school" xml:lang="en">For information about the digital edition, please 
+                                refer to our website.</ref></p>
+                    </xi:fallback>
+                </xi:include>
+                <normalization>
+                   <p xml:id="W0004-00-meta-pa-0006" xml:lang="en">Long s (<q>ſ</q>) were silently normalized, 
+                      i.e. resolved to <q>s</q>.</p>
+                   <p xml:id="W0004-00-meta-pa-0007" xml:lang="de">Schaft-s (<q>ſ</q>) wurden stillschweigend 
+                      normalisiert, d.h. als <q>s</q> aufgelöst.</p>
+                   <p xml:id="W0004-00-meta-pa-0008" xml:lang="es">La s larga (<q>ſ</q>) fue reemplazada 
+                      implícitamente por <q>s</q>.</p>
+                </normalization>
+            </editorialDecl>
+            <xi:include href="../meta/works-general.xml" xpointer="xmlns(tei=http://www.tei-c.org/ns/1.0)xpointer(//tei:encodingDesc/tei:editorialDecl/following-sibling::*)">
+                <xi:fallback/>
+            </xi:include>
+            <xi:include href="../meta/specialchars.xml" xpointer="charDecl">
+                <xi:fallback><charDecl><char xml:lang="en"><note xml:id="W0004-00-meta-no-0001">The definition of 
+                     non-standard characters could not be embedded, but it is available on the 
+                     <ref target="https://files.salamanca.school/specialchars.xml">project website</ref>.</note></char></charDecl>
+                </xi:fallback>
+            </xi:include>
+            <appInfo>
+                <application ident="auto-markup" version="1" xml:id="auto">
+                    <desc>Automatically generated markup.</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+
+
+        <revisionDesc status="g_enriched_approved">
+            <listChange ordered="true">
+                <change who="#CR #auto" when="2020-03-19" status="g_enriched_approved" xml:lang="en">Fix testing for zenodo upload.</change>
+                <change who="#CR #auto" when="2019-11-07" status="g_enriched_approved" xml:lang="en">charq0307 replaced by chare682 (latin small letter q with dot above).</change>
+                <change who="#CR #auto" when="2019-10-24" status="g_enriched_approved" xml:lang="en">teiHeader update. Rearranged editor(s) sequece and @role #additional.</change>
+                <change who="#DG #CR #auto" when="2019-08-07" status="g_enriched_approved" xml:lang="en">Revised teiHeader, update @role in editor.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+
+    <text type="work_monograph" xml:lang="es" xml:id="completeWork">
+        <front xml:id="W0004-00-0005-fm-03e8">
+            <titlePage xml:id="W0004-00-0005-tp-03e8">
+                <docTitle xml:id="W0004-00-0005-dt-03e8"><titlePart type="main" xml:id="W0004-00-0005-tt-03e8">
+<pb facs="facs:W0004-0005" n="fol. 1r" xml:id="W0004-00-0005-pb-03e8"/>
+<lb xml:id="W0004-00-0005-lb-0001"/>¶ Tratado de <choice xml:id="W0004-00-0005-ce-03e8"><abbr>cu<g ref="#chare0303">e</g>tas</abbr><expan resp="#AW" cert="high">cuentas</expan></choice></titlePart></docTitle>
+<lb xml:id="W0004-00-0005-lb-0002"/><byline>hecho por el licenciado <docAuthor ref="author:A0019 gnd:130116688 cerl:cnp01232744" key="Castillo, Diego de">Diego del
+<lb xml:id="W0004-00-0005-lb-0003"/>Castillo</docAuthor>: natural <g ref="#charebd1">de</g>la <choice xml:id="W0004-00-0005-cr-03e9"><orig>cibdad</orig><reg resp="#AW" cert="high" xml:id="jb3_5fz_ht">ciudad</reg></choice> de Mo<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0005-lb-0004"/>lina.</byline> <argument><p xml:id="W0004-00-0005-pa-03ec">Enel qual se contiene que cosa
+<lb xml:id="W0004-00-0005-lb-0005"/>es <choice xml:id="W0004-00-0005-ce-03ea"><abbr>cu<g ref="#chare0303">e</g>ta</abbr><expan resp="#AW" cert="high">cuenta</expan></choice>: y a quien: y como an de dar
+<lb xml:id="W0004-00-0005-lb-0006"/>la <choice xml:id="W0004-00-0005-ce-03eb"><abbr>cu<g ref="#chare0303">e</g>ta</abbr><expan resp="#AW" cert="high">cuenta</expan></choice> los tutores: y otros admini<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0005-lb-0007"/>stradores de bienes agenos.</p></argument> <docEdition>Obra
+<lb xml:id="W0004-00-0005-lb-0008"/>muy necessaria y <g ref="#chara753">pro</g>uechosa. La qual
+<lb xml:id="W0004-00-0005-lb-0009"/>el hi<g ref="#char0292">z</g>o en latin: y assi la presento al
+<lb xml:id="W0004-00-0005-lb-0010"/>Rey <choice xml:id="W0004-00-0005-ce-03ec"><abbr>n<g ref="#charr0303">r</g>o</abbr><expan resp="#AW" cert="high">nuestro</expan></choice> señor. y por<g ref="#charq0303">que</g> parescio a su
+<lb xml:id="W0004-00-0005-lb-0011"/>magestad <g ref="#charq0303">que</g> puesta en <choice xml:id="W0004-00-0005-ce-03ed"><abbr>rom<g ref="#chara0304">a</g>ce</abbr><expan resp="#AW" cert="high">romance</expan></choice> seria
+<lb xml:id="W0004-00-0005-lb-0012"/>mas general: por su mandado la tra<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0005-lb-0013"/>slado en <choice xml:id="W0004-00-0005-ce-03ee"><abbr>n<g ref="#charr0303">r</g>a</abbr><expan resp="#AW" cert="high">nuestra</expan></choice> lengua Castellana.</docEdition>
+<lb xml:id="W0004-00-0005-lb-0014"/><imprimatur><hi rendition="#r-center">Con preuilegio Real.</hi></imprimatur>
+<lb xml:id="W0004-00-0005-lb-0015"/><docDate when="1522"><hi rendition="#r-center">1522.</hi></docDate>
+            </titlePage>
+        </front>
+
+        <body xml:id="W0004-00-0009-tb-03e8">
+            <div type="part" n="Primera parte" xml:id="W0004-00-0009-d1-03e9">
+                <head xml:id="W0004-00-0009-he-03e9">
+<pb facs="facs:W0004-0009" n="fol. 3r" xml:id="W0004-00-0009-pb-03ec"/>
+<lb xml:id="W0004-00-0009-lb-0001"/>¶ Comi<g resp="#CB" cert="high" ref="#chare0303">en</g>ça la primera parte.</head>
+                <p xml:id="W0004-00-0009-pa-03f7">
+<lb xml:id="W0004-00-0009-lb-0002"/><hi rendition="#initCaps">Q</hi>Vanto a la primera
+<lb xml:id="W0004-00-0009-lb-0003"/>parte en que diximos que cosa es
+<lb xml:id="W0004-00-0009-lb-0004"/>cuenta / o ra<g ref="#char0292">z</g>on: es de saber que
+<lb xml:id="W0004-00-0009-lb-0005"/>cuenta / o ra<g ref="#char0292">z</g><g ref="#charo0303" resp="#AW" cert="low">on</g> se di<g ref="#char0292">z</g>e en muchas
+<lb xml:id="W0004-00-0009-lb-0006"/>maneras. ¶ La primera se di<g ref="#char0292">z</g>e
+<lb xml:id="W0004-00-0009-lb-0007"/>ra<g ref="#char0292">z</g>on cierta y no dudosa confir<lb break="no" rendition="#hyphen" xml:id="W0004-00-0009-lb-0008"/>maci<g ref="#charo0303" resp="#AW" cert="low">on</g>. Di<g ref="#char0292">z</g>e se cierta y no dudosa: por que la cu<g resp="#CB" cert="high" ref="#chare0303">en</g><lb break="no" rendition="#noHyphen" xml:id="W0004-00-0009-lb-0009"/>ta que tiene de dar el administrador / a de ser cier<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0009-lb-0010"/>ta: y no a de tener duda / de que se presuma c<g ref="#charo0303" resp="#AW" cert="low">on</g>tra
+<lb xml:id="W0004-00-0009-lb-0011"/>el que no di<g ref="#char0292">z</g>e verdad. <ref type="note-anchor" n="a" target="#W0004-00-0009-nm-03f7"><hi rendition="#sup">a</hi></ref>
+               <note anchored="true" place="margin" n="Verdad. a." xml:id="W0004-00-0009-nm-03f7" xml:lang="la"><p xml:id="W0004-00-0009-pa-07df">¶ Glo.
+<lb xml:id="W0004-00-0009-lb-m001"/>et docto. in. l. omni<g resp="#CB" cert="high" ref="#charu0303">um</g><lb break="yes" xml:id="W0004-00-0009-lb-m002"/>ff. de legibus.</p></note> ¶ Di<g ref="#char0292">z</g>e se tambi<g resp="#CB" cert="high" ref="#chare0303">en</g> cu<g resp="#CB" cert="high" ref="#chare0303">en</g>ta
+<lb xml:id="W0004-00-0009-lb-0012"/>o ra<g ref="#char0292">z</g>on. vn mouimiento dela voluntad en aque<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0009-lb-0013"/>llas cosas que se pueden discernir / o conoscer. <ref type="note-anchor" n="b" target="#W0004-00-0009-nm-03f8"><hi rendition="#sup">b</hi></ref>
+<lb xml:id="W0004-00-0009-lb-0023"/>¶ Ansi mismo se di<g ref="#char0292">z</g>e cuenta / o ra<g ref="#char0292">z</g>on: vn moui<lb break="no" rendition="#hyphen" xml:id="W0004-00-0009-lb-0024"/>miento del animo que <g resp="#CB" cert="high" ref="#charebd1">de</g>clara por vista / y obra la
+<lb xml:id="W0004-00-0009-lb-0025"/>voluntad: y distingue y aparta lo verdadero / <g resp="#CB" cert="high" ref="#charebd1">de</g>lo<lb break="yes" xml:id="W0004-00-0009-lb-0026"/> falso. <ref type="note-anchor" n="c" target="#W0004-00-0009-nm-03f9"><hi rendition="#sup">c</hi></ref> ¶ Y estas diffiniciones avn que son cier<lb break="no" rendition="#hyphen" xml:id="W0004-00-0009-lb-0027"/>tas: mejor y mas <choice xml:id="W0004-00-0009-cr-03f7"><orig>propiam<g ref="#chare0303">e</g>te</orig><reg resp="#MK" cert="high" xml:id="qc3_mjm_cv">propiamente</reg></choice> caen enla cuenta y
+<lb xml:id="W0004-00-0009-lb-0028"/>ra<g ref="#char0292">z</g><g ref="#charo0303" resp="#AW" cert="low">on</g> / que los testiguos <choice xml:id="W0004-00-0009-cr-03f8"><orig>tien<g ref="#chare0303">e</g></orig><reg resp="#MK" cert="high" xml:id="dmf_4jm_cv">tienen</reg></choice> de dar <g ref="#charebd1">de</g> sus dichos:
+<lb xml:id="W0004-00-0009-lb-0029"/>que no en la cuenta y ra<g ref="#char0292">z</g>on que los administra<lb break="no" rendition="#hyphen" xml:id="W0004-00-0009-lb-0030"/>dores tienen de dar de su officio. y por esto p<g ref="#charo0303" resp="#AW" cert="low">on</g>go
+<pb facs="facs:W0004-0010" n="fol. 3v" xml:id="W0004-00-0010-pb-03ed"/>
+<lb xml:id="W0004-00-0010-lb-0001"/>otra diffinicion mas conuenible a nuestro caso.</p>
+            </div>
+        </body>
+
+        <back xml:id="W0004-00-0058-bm-03e8">
+            <div type="contents" n="Tabla" xml:id="W0004-00-0058-d1-03f7">
+                <list type="index" xml:id="W0004-00-0058-li-03e9">
+                    <head xml:id="W0004-00-0058-he-03ea">
+<pb facs="facs:W0004-0058" n="fol. 27v" xml:id="W0004-00-0058-pb-041f"/>
+<lb xml:id="W0004-00-0058-lb-0001"/>¶ Comiença la tabla dela pre<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0058-lb-0002"/>sente obra: en la qual se hallaran las partes que
+<lb xml:id="W0004-00-0058-lb-0003"/>en ella se contienen <choice xml:id="W0004-00-0058-cr-04a9"><orig>ordenadam<g ref="#chare0303">e</g>te</orig><reg resp="#MK" cert="high" xml:id="m2x_gvk_cv">ordenadamente</reg></choice> por el nume<lb break="no" rendition="#hyphen" xml:id="W0004-00-0058-lb-0004"/>ro de sus hojas. Primeramente.
+                    </head>
+                    <item xml:id="W0004-00-0058-it-03ec">
+<lb xml:id="W0004-00-0058-lb-0005"/><ref type="summary" target="#W0004-00-0006-d1-03e8">¶ El prologo dela presente obra. Folio. j.</ref></item>
+                    <item xml:id="W0004-00-0058-it-03ed">
+<lb xml:id="W0004-00-0058-lb-0006"/><ref type="summary" target="#W0004-00-0009-d1-03e9">j.¶ La primera parte que trata que cosa es cuen<lb break="no" rendition="#hyphen" xml:id="W0004-00-0058-lb-0007"/>ta y ra<g ref="#char0292">z</g>on. Folio. iij.</ref></item>
+                    <item xml:id="W0004-00-0058-it-03ee">
+<lb xml:id="W0004-00-0058-lb-0008"/><ref type="summary" target="#W0004-00-0010-d1-03ea">ij.¶ Segunda parte que c<g ref="#charo0303" resp="#AW" cert="low">on</g>tiene quienes son obli<lb break="no" rendition="#hyphen" xml:id="W0004-00-0058-lb-0009"/>gados a dar cuenta. Folio. iij.</ref></item>
+                </list>
+                <p xml:id="W0004-00-0059-pa-0516">
+<hi rendition="#r-center"><lb xml:id="W0004-00-0059-lb-0013"/>Fin dela tabla.</hi>
+                    </p>
+            </div>
+            <div type="privileges" n="Privilegio" xml:id="W0004-00-0059-d1-03f8">
+                <p xml:id="W0004-00-0059-pa-0517">
+<lb xml:id="W0004-00-0059-lb-0014"/>¶ Aqui se da fin a la presente
+<lb xml:id="W0004-00-0059-lb-0015"/>obra y tratado de cuentas / hecho por el licencia<lb break="no" rendition="#hyphen" xml:id="W0004-00-0059-lb-0016"/>do <persName resp="#CB" key="Castillo de Villasante, Diego del" ref="cerl:cnp01232744 gnd:130116688" xml:id="W0004-00-0059-pe-04a2">Diego <g resp="#CB" cert="high" ref="#charebd1">de</g>l castillo</persName>: natural <g ref="#charebd1">de</g>la cibdad de Mo<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0059-lb-0017"/>lina. Con priuilegio Real que ninguno lo pueda
+<lb xml:id="W0004-00-0059-lb-0018"/>vender ni imprimir en estos reynos: saluo la per<lb break="no" rendition="#noHyphen" xml:id="W0004-00-0059-lb-0019"/>sona / o personas que su poder ouier<g resp="#CB" cert="high" ref="#chare0303">en</g> / por espa<lb break="no" rendition="#hyphen" xml:id="W0004-00-0059-lb-0020"/>cio de die<g ref="#char0292">z</g> años: segun que por la cedula y priui<lb break="no" rendition="#hyphen" xml:id="W0004-00-0059-lb-0021"/>legio de sus Magestades paresce. Es impresso
+<lb xml:id="W0004-00-0059-lb-0022"/>en la muy noble y mas leal cibdad de Burgos
+                </p>
+            </div>
+            <div type="colophon" xml:id="W0004-00-0060-d1-03f9">
+<pb facs="facs:W0004-0060" n="fol. 28v" xml:id="W0004-00-0060-pb-0421"/>
+<lb xml:id="W0004-00-0060-lb-0001"/><figure><figDesc xml:lang="de">Druckermarke des Alonso de Melgar: Schädel eines Rindes, Inschrift Haec posita est in ruinam. Buchstaben A und M.</figDesc></figure>
+            </div>
+        </back>
+    </text>
+</TEI>
