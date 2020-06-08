@@ -43,9 +43,8 @@
                 <availability>
                     <licence target="http://creativecommons.org/cc-by/4.0" n="cc-by">CC-BY</licence>
                 </availability>
-                <date type="digitizedEd" when="2018-07-10">2018-07-10</date>
+                <date type="digitizedEd" when="2020-06-08">2020-06-08</date>
                 <idno>
-                    
                     <idno xml:id="urlid">https://id.salamanca.school/texts/W0004</idno>
                     <idno xml:id="urltei">https://id.salamanca.school/texts/W0004?format=tei</idno>
                     <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0004?format=html</idno>
@@ -115,7 +114,6 @@
            <textClass>
               <keywords>
                  <term>Keyword 1</term>
-                 <term>Keyword 2</term>
                  <term>Keyword 3</term>
               </keywords>
            </textClass>
