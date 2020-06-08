@@ -52,7 +52,7 @@
                     <idno xml:id="urliiif">https://id.salamanca.school/texts/W0004?format=iiif</idno>
                     <idno xml:id="urltxtorig">https://id.salamanca.school/texts/W0004?format=txt&amp;mode=orig</idno>
                     <idno xml:id="urltxtedit">https://id.salamanca.school/texts/W0004?format=txt&amp;mode=edit</idno>
-                <idno type="DOI">10.5072/zenodo.613612</idno></idno>
+                <idno type="DOI">10.5072/zenodo.613652</idno></idno>
             </publicationStmt>
             
             <seriesStmt>
